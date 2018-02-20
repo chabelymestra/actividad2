@@ -1,51 +1,55 @@
+
+Chabely Mestra Diaz - Sol Hernandez
+
+
 Ejercicio 1
-El ministerio de salud desea mantener un sistema de información relativo a hospitales. 
-A continuación se detalla lo que se desea modelar
+El ministerio de salud desea mantener un sistema de informaciÃ³n relativo a hospitales. 
+A continuaciÃ³n se detalla lo que se desea modelar
 
 HOSPITAL
-•	Código que lo identifica
-•	Nombre
-•	Dirección
-•	Teléfono
-•	Cantidad de camas
+â€¢	CÃ³digo que lo identifica
+â€¢	Nombre
+â€¢	DirecciÃ³n
+â€¢	TelÃ©fono
+â€¢	Cantidad de camas
 SALA
-•	Código
-•	Nombre
-•	Cantidad de camas
+â€¢	CÃ³digo
+â€¢	Nombre
+â€¢	Cantidad de camas
 MEDICO
-•	Cedula de identidad
-•	Nombre
-•	Especialidad
+â€¢	Cedula de identidad
+â€¢	Nombre
+â€¢	Especialidad
 
 
 LABORATORIO
-•	Código
-•	Nombre
-•	Dirección
-•	Teléfono
+â€¢	CÃ³digo
+â€¢	Nombre
+â€¢	DirecciÃ³n
+â€¢	TelÃ©fono
 PACIENTE 
-•	Cedula
-•	Número de registro
-•	Numero de cama
-•	Nombre
-•	Dirección
-•	Fecha de nacimiento
-•	sexo
+â€¢	Cedula
+â€¢	NÃºmero de registro
+â€¢	Numero de cama
+â€¢	Nombre
+â€¢	DirecciÃ³n
+â€¢	Fecha de nacimiento
+â€¢	sexo
 DIAGNOSTICO
-•	Código
-•	Tipo
-•	Complicaciones
+â€¢	CÃ³digo
+â€¢	Tipo
+â€¢	Complicaciones
 
 
 EJERCICIO 2
 
-La secretaria de MERCOSUR desea diseñar un sistema de información sobre relaciones comerciales y diplomáticas entre países. 
-Cada país se identifica por su nombre mientras que de cada producto se conoce su nombre y una breve descripción.
+La secretaria de MERCOSUR desea diseÃ±ar un sistema de informaciÃ³n sobre relaciones comerciales y diplomÃ¡ticas entre paÃ­ses. 
+Cada paÃ­s se identifica por su nombre mientras que de cada producto se conoce su nombre y una breve descripciÃ³n.
 PAIS
-•	Nombre
+â€¢	Nombre
 PRODUCTO
-•	Nombre
-•	Descripción
+â€¢	Nombre
+â€¢	DescripciÃ³n
 
 EJERCICIO 3
 Se pretende modelar la cantidad de goles que hizo un jugador a lo largo de su vida en cada equipo en que jugo. Tanto de los jugadores como de los equipos se conoce su nombre
@@ -53,23 +57,23 @@ Se pretende modelar la cantidad de goles que hizo un jugador a lo largo de su vi
 
 EJERCICIO 4
 
-Existe un conjunto de empresas que producen varios productos, también hay un conjunto de promotores que trabajan en las empresas. 
-Cada promotor trabaja para una sola empresa y vende un único producto de esta.
+Existe un conjunto de empresas que producen varios productos, tambiÃ©n hay un conjunto de promotores que trabajan en las empresas. 
+Cada promotor trabaja para una sola empresa y vende un Ãºnico producto de esta.
 
-a.	Dada la siguiente solución, ¿qué restricciones habría que agregar para que represente la realidad descrita?
-R/ No habría cambios ni restricciones, ya que el modelo MER está representando la realidad descripta. 
+a.	Dada la siguiente soluciÃ³n, Â¿quÃ© restricciones habrÃ­a que agregar para que represente la realidad descrita?
+R/ No habrÃ­a cambios ni restricciones, ya que el modelo MER estÃ¡ representando la realidad descripta. 
 
-b.	¿Qué cambios deberían hacerse si todos los productos deben tener un promotor asociado?
-R/ El cambio se vendría en ámbito del promotor, ya que el promotor tiene trabajadores para el.
+b.	Â¿QuÃ© cambios deberÃ­an hacerse si todos los productos deben tener un promotor asociado?
+R/ El cambio se vendrÃ­a en Ã¡mbito del promotor, ya que el promotor tiene trabajadores para el.
 
-c.	Describa otras alternativas para representar la realidad planteada sin tener en cuenta la parte b. y discutiendo las posibles anomalías.
+c.	Describa otras alternativas para representar la realidad planteada sin tener en cuenta la parte b. y discutiendo las posibles anomalÃ­as.
 R/ Existe un conjunto de empresas que desean elaborar varios productos, en la cual cada producto puede ser vendido por varios promotores, pero solamente un 
-promotor puede vender un solo producto, también una empresa puede tener varios promotores, pero a su vez un promotor puede trabajar en una sola empresa.
+promotor puede vender un solo producto, tambiÃ©n una empresa puede tener varios promotores, pero a su vez un promotor puede trabajar en una sola empresa.
 
 
 EJERCICIO 5
 
-Dado un conjunto de personas se desea modelar los vínculos entre los padres biológicos y sus hijos mediante el siguiente MER:
+Dado un conjunto de personas se desea modelar los vÃ­nculos entre los padres biolÃ³gicos y sus hijos mediante el siguiente MER:
 a.	Discutir su representatividad.
 R/ En un conjunto familiar se puede tener un padre, una madre y un hijo 
 
@@ -77,36 +81,36 @@ b.	Plantear un nuevo modelo que represente esta realidad.
 
 
 EJERCICIO 6
-Una cadena de restaurantes ha relevado información acerca de los clientes y sus preferencias. De cada persona, identificada por su cédula de identidad, se conoce su nombre, 
-el restaurant que frecuenta más y las comidas que más le gustan.
-De cada restaurant, identificado por su nombre, se conoce las comidas que preparan. De cada comida se conoce su nombre, que la identifica, el tiempo de preparación y los 
+Una cadena de restaurantes ha relevado informaciÃ³n acerca de los clientes y sus preferencias. De cada persona, identificada por su cÃ©dula de identidad, se conoce su nombre, 
+el restaurant que frecuenta mÃ¡s y las comidas que mÃ¡s le gustan.
+De cada restaurant, identificado por su nombre, se conoce las comidas que preparan. De cada comida se conoce su nombre, que la identifica, el tiempo de preparaciÃ³n y los 
 ingredientes principales.
 
-a. Diseñar un MER que represente la realidad anterior
-b. Modificar el MER anterior para representar la información anterior considerando la siguiente restricción.
+a. DiseÃ±ar un MER que represente la realidad anterior
+b. Modificar el MER anterior para representar la informaciÃ³n anterior considerando la siguiente restricciÃ³n.
 
-•	Un restaurante no vende más de 10 comidas.
-•	Una persona frecuenta varios restaurantes.
-•	A una persona no le gusta una comida por sí sola sino cómo la sirven en determinados restaurantes.
+â€¢	Un restaurante no vende mÃ¡s de 10 comidas.
+â€¢	Una persona frecuenta varios restaurantes.
+â€¢	A una persona no le gusta una comida por sÃ­ sola sino cÃ³mo la sirven en determinados restaurantes.
 
 RESTAURANT
-•	Nombre
+â€¢	Nombre
 COMIDA
-•	Nombre
-•	Tiempo de preparación 
-•	Ingredientes 
+â€¢	Nombre
+â€¢	Tiempo de preparaciÃ³n 
+â€¢	Ingredientes 
 CLIENTES
-•	Cedula de identidad
-•	Nombre
+â€¢	Cedula de identidad
+â€¢	Nombre
 
 
 EJERCICIO 7
 
-El siguiente MER representa la información modela un sistema de corrección de exámenes.
-Restricción: Corregido, Corrector y Recorrector deben ser distintos entre sí
-Indique cuales de las opciones a continuación son correctas:
-a. Cada estudiante corrige sólo a 1 estudiante 
+El siguiente MER representa la informaciÃ³n modela un sistema de correcciÃ³n de exÃ¡menes.
+RestricciÃ³n: Corregido, Corrector y Recorrector deben ser distintos entre sÃ­
+Indique cuales de las opciones a continuaciÃ³n son correctas:
+a. Cada estudiante corrige sÃ³lo a 1 estudiante 
 ?	Un estudiante puede corregirse a si mismo
 c. Todos los estudiantes son corregidos por alguien
-?	Todo estudiante corregido es re-corregido por algún estudiante
-?	e. La nota de corrección y la de re-corrección son diferentes
+?	Todo estudiante corregido es re-corregido por algÃºn estudiante
+?	e. La nota de correcciÃ³n y la de re-correcciÃ³n son diferentes
